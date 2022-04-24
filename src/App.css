@@ -1,0 +1,81 @@
+body {
+  background: radial-gradient(circle at center, white, white 85%, rgb(179, 179, 179) 100%);
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: 8vw auto auto auto auto auto 8vw;
+  grid-gap: 1rem;
+  align-content: space-around;
+}
+header {
+  text-align: right;
+}
+header,
+footer {
+  grid-column: 1 / span all;
+  border: 2px solid red;
+  align-content: space-around;
+} 
+.bodySection {
+  border: 2px solid yellow;
+  grid-column: 1 / span all;
+}
+.aboutSection {
+  border: 2px solid green;
+  grid-column: 2 / span 3;
+}
+.heroImage {
+  grid-column: 2 / span 3;
+  border: 2px solid blue;
+  text-align: center;
+}
+.projectSection {
+  border: 2px solid purple;
+  grid-column: 1 / span 5;
+  height: fit-content;
+  align-content: center;
+  padding-bottom: 10px;
+}
+.socialSection{
+  text-align: center;
+  grid-column: 1 / span 5;
+  border: 2px solid magenta;
+}
+footer {
+  text-align: center;
+  height: 8vw;
+
+}
+@media (max-width: 700px) {
+.aboutSection,
+.heroImage,
+.projectSection {
+  grid-column: 1 / span 5;
+}
+  
+
+/*Demo Specific Styles */
+main {
+  margin: 0 auto;
+  max-width: 56em;
+  padding: 1em 0;
+  grid-template-rows: 10vw auto auto auto auto 10vw;
+}
+
+header,
+.aboutSection,
+.heroImage,
+.projectSection,
+footer {
+  display: flex;
+  align-items: left;
+  justify-content: space-evenly;
+  height: fit-content;
+}
+
+header,
+footer {
+  height: 10vw;
+} 
+}

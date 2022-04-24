@@ -1,0 +1,45 @@
+:root{
+    --jungle: #005052;
+    --black: #0B0A0A;
+    --midnight: #1B3A4B;
+    --purple: #5C1E5C;
+    --acid: #B5BB12;
+    --eton: #87CBAC;
+    --aqua: #90FFDC;
+    --silver: #B5B1B2;
+}
+
+.profilePic { /* this is the class name in the containerHero div */
+    /* outline: 1px solid red; */
+    /* margin: 10% 50%; */
+    height: 200px;
+    border-radius: 0%;
+    box-shadow: 2px 2px 1px 3px black;
+    /* margin-top: 5%;
+    margin-left: 5%; */
+}
+
+/* .heroText {
+    margin: 5%;
+    outline: 2px solid orange;
+
+} */
+
+
+/* .hello {
+    text-align: center;
+    transform: translate(0%, 50%);
+    font-family: 'Grape Nuts', cursive;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 
+        0 0 100px var(--silver),
+        0 0 5px var(--aqua),
+        0 0 5px var(--aqua),
+        0 0 20px var(--acid),
+        0 0 20px var(--aqua),
+        0 0 10px var(--midnight),
+        0 0 1px var(--aqua),
+        1px 1px .1px var(--aqua)
+
+} */
